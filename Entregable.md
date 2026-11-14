@@ -117,6 +117,16 @@ vemos con Victor:
 <img width="470" height="44" alt="image" src="https://github.com/user-attachments/assets/82add367-dbfb-45a3-b442-1440fe5ced58" />
 
 
+6. Preguntas de reflexión
+
+* ¿Por qué no bastan los permisos clásicos de Unix (usuario / grupo / resto) para implementar el esquema del diagrama? Pon un ejemplo concreto de este caso.
+
+* ¿Qué es la máscara (mask) de una ACL y cómo afecta a los permisos efectivos de un usuario o grupo, aunque su entrada de ACL indique más permisos?
+  
+* ¿Qué diferencia hay entre una ACL de acceso y una ACL por defecto? ¿Cuándo se aplica cada una?
+* Si mañana se incorpora un nuevo operario, ¿qué pasos tendrías que repetir para darle exactamente el mismo acceso que al resto de operarios?
+
+
 
 
 
