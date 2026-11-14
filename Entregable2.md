@@ -43,6 +43,16 @@ Ahora prueba escribiendo una contraseña que cumpla con lo que pida PAM:
 
 <img width="627" height="110" alt="image" src="https://github.com/user-attachments/assets/200a584f-e94a-4293-b796-1e90413f9286" />
 
+Prueba con root:
+
+<img width="686" height="117" alt="image" src="https://github.com/user-attachments/assets/bec3e033-e3f0-49cb-b199-b8a3cffb3c8f" />
+
+
+![Uploading image.png…]()
+
+
+
+
 
 
 
