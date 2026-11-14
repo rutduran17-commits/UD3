@@ -21,17 +21,25 @@ Y lo mismo con supervisores:
 primero creo el hmi_planta y solo le dejo los permisos al propietario:
 
 <img width="530" height="100" alt="image" src="https://github.com/user-attachments/assets/e707508c-4c13-4a97-b29e-fd429e984b2d" />
+
+
 luego creo la carpeta planos con un mkdir y dentro de planos creo los archivos.dwg
 <img width="517" height="25" alt="image" src="https://github.com/user-attachments/assets/0be34499-4eea-44db-9310-341640264f00" />
 
 <img width="912" height="55" alt="image" src="https://github.com/user-attachments/assets/1dec9717-fe99-4a47-a867-91c803ed78e8" />
 
 Ahora le damos los permisos necesarios a la carpeta con un 700 y un 600 a los archivos .dwg por seguridad:
+
 <img width="551" height="112" alt="image" src="https://github.com/user-attachments/assets/90576326-8027-45c3-bcf6-17d1d711e831" />
 
 Tarea 3 — Configurar las ACL con setfacl
+
+
 Ahora le doy permisos a los operarios en hmi_planta que es solo de ejecución:
+
+
 <img width="631" height="271" alt="image" src="https://github.com/user-attachments/assets/b61bf56d-81ce-4af1-bdc7-c1ec12303b6a" />
+
 con el comando de getfacl sobre hmi_planta vemos los cambios.
 
 En el grupo de ingeniería:
@@ -40,6 +48,7 @@ Nestor solo puede leer y ejecutar:
 <img width="552" height="33" alt="image" src="https://github.com/user-attachments/assets/3776f138-ff3a-4003-9fd8-45a9a6916ebf" />
 
 Compruebo:
+
 <img width="169" height="102" alt="image" src="https://github.com/user-attachments/assets/4d991024-6f55-41e8-b409-3e75a084752c" />
 
 Lucía tiene todos los permisos:
@@ -49,6 +58,34 @@ Lucía tiene todos los permisos:
 Compruebo:
 
 <img width="159" height="108" alt="image" src="https://github.com/user-attachments/assets/d4f9875c-7dd0-454f-9a18-84af18d63577" />
+
+
+PERMISOS SOBRE PLANOS:
+1. Lucía solo tiene permiso de escribir y leer sobre autocclave.dwg:
+
+<img width="642" height="31" alt="image" src="https://github.com/user-attachments/assets/c268243c-9cc4-4a97-bdd7-b6c9c003e4d8" />
+
+
+Compruebo:
+
+
+<img width="444" height="168" alt="image" src="https://github.com/user-attachments/assets/ee528dea-edfc-4a29-87b3-99218a25a11e" />
+
+
+
+
+2. Victor tiene permisos de leer, escribir y ejecutar sobre la carpeta de planos:
+Por este momento solo le daré permisos recursivos a Victor, si se crea otro archivo dentro de planos ya se verá si tendrá los permisos hereditarios en ello o no:
+
+ <img width="558" height="31" alt="image" src="https://github.com/user-attachments/assets/402c3cb9-cce1-4afe-90d9-c06ebffa3fc9" />
+
+ Comprobamos:
+
+ <img width="279" height="156" alt="image" src="https://github.com/user-attachments/assets/38a1f125-8317-4c45-a821-d4d54ea80053" />
+
+
+ 
+
 
 
 
