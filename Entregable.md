@@ -106,6 +106,19 @@ Por último Oscar, que también solo necesita permisos de  lectura en el archivo
 
 <img width="564" height="206" alt="image" src="https://github.com/user-attachments/assets/4ce6efda-438e-4e76-8569-f3698a187844" />
 
+Comprobaciones con los usuarios:
+
+vemos con Victor:
+
+<img width="495" height="30" alt="image" src="https://github.com/user-attachments/assets/87ad88d2-52db-4a2a-b544-313f20f54bea" />
+
+<img width="585" height="115" alt="image" src="https://github.com/user-attachments/assets/9052e9a0-54b7-4c4f-9f6f-f8c104e6eaf4" />
+
+<img width="470" height="44" alt="image" src="https://github.com/user-attachments/assets/82add367-dbfb-45a3-b442-1440fe5ced58" />
+
+
+
+
 
 
 
