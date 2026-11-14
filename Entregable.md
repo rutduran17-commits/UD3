@@ -29,6 +29,42 @@ luego creo la carpeta planos con un mkdir y dentro de planos creo los archivos.d
 Ahora le damos los permisos necesarios a la carpeta con un 700 y un 600 a los archivos .dwg por seguridad:
 <img width="551" height="112" alt="image" src="https://github.com/user-attachments/assets/90576326-8027-45c3-bcf6-17d1d711e831" />
 
+Tarea 3 — Configurar las ACL con setfacl
+Ahora le doy permisos a los operarios en hmi_planta que es solo de ejecución:
+<img width="631" height="271" alt="image" src="https://github.com/user-attachments/assets/b61bf56d-81ce-4af1-bdc7-c1ec12303b6a" />
+con el comando de getfacl sobre hmi_planta vemos los cambios.
+
+En el grupo de ingeniería:
+Nestor solo puede leer y ejecutar:
+
+<img width="552" height="33" alt="image" src="https://github.com/user-attachments/assets/3776f138-ff3a-4003-9fd8-45a9a6916ebf" />
+
+Compruebo:
+<img width="169" height="102" alt="image" src="https://github.com/user-attachments/assets/4d991024-6f55-41e8-b409-3e75a084752c" />
+
+Lucía tiene todos los permisos:
+
+<img width="546" height="27" alt="image" src="https://github.com/user-attachments/assets/e40af996-917a-4764-9f21-7857fed8d49b" />
+
+Compruebo:
+
+<img width="159" height="108" alt="image" src="https://github.com/user-attachments/assets/d4f9875c-7dd0-454f-9a18-84af18d63577" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
