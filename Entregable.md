@@ -83,6 +83,17 @@ Por este momento solo le daré permisos recursivos a Victor, si se crea otro arc
 
  <img width="279" height="156" alt="image" src="https://github.com/user-attachments/assets/38a1f125-8317-4c45-a821-d4d54ea80053" />
 
+ Ahora con el grupo de supervisores que todos tienen permisos de lectura y ejecución:
+
+ 
+<img width="593" height="27" alt="image" src="https://github.com/user-attachments/assets/7b031652-026c-4de1-af6f-839eed945f32" />
+
+Comprobamos:
+
+<img width="254" height="173" alt="image" src="https://github.com/user-attachments/assets/63e9ec5d-c3b8-41e8-a241-7b1e769ddeb7" />
+
+
+
 
  
 
