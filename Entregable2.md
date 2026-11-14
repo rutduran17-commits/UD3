@@ -35,6 +35,17 @@ dentro de  /etc/security/pwquality.conf  fijamos los valores:
 
 <img width="450" height="56" alt="image" src="https://github.com/user-attachments/assets/d03fceae-051f-45fb-938b-34956fe3cc1c" />
 
+3. Como el usuario hugo (grupo operarios, creado ayer en la práctica de ACL), intenta cambiarle la contraseña por algo débil y observa el rechazo:
+
+<img width="737" height="160" alt="image" src="https://github.com/user-attachments/assets/a8dd66bd-3091-4221-a82d-b31164b41de8" />
+
+Ahora prueba escribiendo una contraseña que cumpla con lo que pida PAM:
+
+<img width="627" height="110" alt="image" src="https://github.com/user-attachments/assets/200a584f-e94a-4293-b796-1e90413f9286" />
+
+
+
+
 
 
 
