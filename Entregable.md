@@ -92,6 +92,22 @@ Comprobamos:
 
 <img width="254" height="173" alt="image" src="https://github.com/user-attachments/assets/63e9ec5d-c3b8-41e8-a241-7b1e769ddeb7" />
 
+vamos con Albero de Operarios que solo necesita permisos de lectura en autoclave.dwg:
+
+<img width="492" height="31" alt="image" src="https://github.com/user-attachments/assets/8b84f33b-079b-45f7-97a4-ed7ac703e685" />
+
+
+
+Comprobamos: 
+
+<img width="298" height="188" alt="image" src="https://github.com/user-attachments/assets/fc099810-f195-4da8-8dec-425d1f581028" />
+
+Por último Oscar, que también solo necesita permisos de  lectura en el archivo de caldera.dwg
+
+<img width="564" height="206" alt="image" src="https://github.com/user-attachments/assets/4ce6efda-438e-4e76-8569-f3698a187844" />
+
+
+
 
 
 
