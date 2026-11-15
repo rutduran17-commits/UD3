@@ -121,6 +121,11 @@ vemos con Victor:
 
 * ¿Por qué no bastan los permisos clásicos de Unix (usuario / grupo / resto) para implementar el esquema del diagrama? Pon un ejemplo concreto de este caso.
 
+  Justamente porque solo permite esos tres: propietario, grupo  y otros, en el esquema se ve que algunos grupos hasta incluso usuarios necesitan permisos independiente, con lo que, con  los permisos clásicos no daría abasto.
+
+  Por ejemplo, le damos permiso al grupo de ingenieros, los otros dos quedarían fuera, y si decides ponerlos en (otros) pues se colará todo el mundo, no es exclusivo.
+  
+
 * ¿Qué es la máscara (mask) de una ACL y cómo afecta a los permisos efectivos de un usuario o grupo, aunque su entrada de ACL indique más permisos?
   
 * ¿Qué diferencia hay entre una ACL de acceso y una ACL por defecto? ¿Cuándo se aplica cada una?
