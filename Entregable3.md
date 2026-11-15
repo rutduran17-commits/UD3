@@ -39,9 +39,13 @@ $ sudo ss -tlnp | grep ':80'
 * Qué deberías ver:
 
 <img width="642" height="101" alt="image" src="https://github.com/user-attachments/assets/9952d724-5b75-4e3b-a7a8-491ae24d67db" />
+
+
 ### Paso 2 — Generar la clave privada de la CA
 
 <img width="881" height="107" alt="image" src="https://github.com/user-attachments/assets/914a461b-8df5-4f35-bbca-2d8a0248bdaa" />
+
+
 ### Paso 3 — Crear el certificado raíz de la CA (autofirmado)
 
 <img width="1100" height="182" alt="image" src="https://github.com/user-attachments/assets/160b327d-437c-4a9f-b259-eab171704ad4" />
