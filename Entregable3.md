@@ -28,9 +28,11 @@ $ sudo ss -tlnp | grep ':80'
 <img width="653" height="656" alt="image" src="https://github.com/user-attachments/assets/db92f015-21a9-4388-8dfd-2f48c006ee6a" />
 
 
+ ###¿Qué indica el navegador sobre la seguridad de la conexión y por qué?
 
+ Dice que la conexión no es segura y no hay ningún candado, porque estoy accediendo con el protocolo de HTTP por el puerto 80.
 
-
+## Paso 1 — Crear una carpeta de trabajo para la CA
 
 
 
