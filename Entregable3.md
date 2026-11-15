@@ -67,6 +67,15 @@ es válida hasta el 2036
 
 ### Paso 5 — Clave privada del servidor y petición de certificado (CSR)
 
+<img width="951" height="120" alt="image" src="https://github.com/user-attachments/assets/e58a7b01-f79f-41bd-8d15-31c7e1da3816" />
+
+### Paso 6 — Indicar para qué nombres e IP es válido el certificado (SAN)
+
+<img width="1223" height="226" alt="image" src="https://github.com/user-attachments/assets/82f1464f-145d-4f0f-8a67-bed72cf4417c" />
+
+
+
+
 
 
 
