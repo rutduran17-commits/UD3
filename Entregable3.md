@@ -76,6 +76,29 @@ es válida hasta el 2036
 ### Paso 7 — La CA firma el certificado del servidor
 <img width="791" height="171" alt="image" src="https://github.com/user-attachments/assets/0950a185-50df-45c7-9286-7fa37f7ad0d5" />
 
+ #### Anota en tu informe: ¿Por qué el certificado del servidor dura 365 días y el de la CA 10 años?
+ - Porque la CA es la raíz de toda la infraestructura, el cambiarla en periodos cortos implica redistribuir su nuevo certificado a todos los que dependan de ello, por lo que se le asigna un periodo largo para que tenga estabilidad a largo plazo.
+   
+ - y los certificados del servidor duran menos por tema de seguridad.
+
+
+### Paso 8 — Verificar la cadena de confianza
+
+openssl puede comprobar que el certificado del servidor está firmado por la CA indicada. 
+openssl verify -CAfile certs/ca.crt certs/srv.crt
+ 
+ <img width="902" height="50" alt="image" src="https://github.com/user-attachments/assets/521231a1-d597-4791-827b-c43b5d2f21db" />
+
+  openssl x509 -in certs/srv.crt -noout -subject -issuer -ext subjectAltName
+
+  
+<img width="1211" height="143" alt="image" src="https://github.com/user-attachments/assets/f6e50370-47e0-4f4e-bcdc-a2e8701e0881" />
+
+
+
+
+
+
 
 
 
