@@ -90,6 +90,11 @@ Al terminar, compruebo de que el fichero oculto se haya guardado en mi usuario h
 <img width="817" height="75" alt="image" src="https://github.com/user-attachments/assets/95516617-79a0-4942-8710-735304492a90" />
 
 
+2.4 Conectar Google Authenticator con sshd
+
+
+
+
 
 
 
