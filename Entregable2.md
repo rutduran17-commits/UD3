@@ -48,7 +48,9 @@ Prueba con root:
 <img width="686" height="117" alt="image" src="https://github.com/user-attachments/assets/bec3e033-e3f0-49cb-b199-b8a3cffb3c8f" />
 
 
-![Uploading image.png…]()
+Al final, cumpliendo con los requisitos si me dejó:
+
+<img width="867" height="172" alt="image" src="https://github.com/user-attachments/assets/86c2b578-8f2c-444d-aef3-14dea230f32b" />
 
 
 
