@@ -73,6 +73,11 @@ es válida hasta el 2036
 
 <img width="1223" height="226" alt="image" src="https://github.com/user-attachments/assets/82f1464f-145d-4f0f-8a67-bed72cf4417c" />
 
+### Paso 7 — La CA firma el certificado del servidor
+<img width="791" height="171" alt="image" src="https://github.com/user-attachments/assets/0950a185-50df-45c7-9286-7fa37f7ad0d5" />
+
+
+
 
 
 
