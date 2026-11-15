@@ -100,7 +100,11 @@ Al terminar, compruebo de que el fichero oculto se haya guardado en mi usuario h
 
 Ahora dentro de /etc/ssh/sshd_config configuramos:
 
-<img width="618" height="74" alt="image" src="https://github.com/user-attachments/assets/78be05de-4726-40a6-ae95-d7f512717b9a" />
+<img width="738" height="545" alt="image" src="https://github.com/user-attachments/assets/0fd1b53f-ee1b-4a2d-97bb-3d895bea4041" />
+
+<img width="660" height="92" alt="image" src="https://github.com/user-attachments/assets/f9065bed-5450-464d-b066-af5cf21c9bf1" />
+
+
 
 
 
