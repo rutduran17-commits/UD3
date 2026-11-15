@@ -34,5 +34,14 @@ $ sudo ss -tlnp | grep ':80'
 
 ## Paso 1 — Crear una carpeta de trabajo para la CA
 
+<img width="707" height="118" alt="image" src="https://github.com/user-attachments/assets/f92d38e3-2319-4fd6-8b3a-21979663690f" />
+
+* Qué deberías ver:
+
+<img width="642" height="101" alt="image" src="https://github.com/user-attachments/assets/9952d724-5b75-4e3b-a7a8-491ae24d67db" />
+
+
+
+
 
 
