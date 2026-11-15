@@ -65,6 +65,28 @@ Al final, cumpliendo con los requisitos si me dejó:
   <img width="911" height="57" alt="image" src="https://github.com/user-attachments/assets/df56f251-71be-41cf-99aa-5d6c146051f8" />
 
 
+PARTE 2 MFA en SSH con Google Authenticator
+
+2.2 Instalar el módulo PAM
+
+funciona el google-authenticator:
+
+<img width="711" height="73" alt="image" src="https://github.com/user-attachments/assets/0929cfc9-0a38-4946-ba39-04b0d117e8c6" />
+* Me conecto con un usuario, que será hugo:
+
+<img width="226" height="70" alt="image" src="https://github.com/user-attachments/assets/4b1faacd-4b92-4a65-a004-dd6a3f7a77e9" />
+
+
+<img width="616" height="55" alt="image" src="https://github.com/user-attachments/assets/a3262d8e-8804-46d9-a47f-5812a0ef2f89" />
+
+
+
+
+
+
+
+
+
 
 
 
