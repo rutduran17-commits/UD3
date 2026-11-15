@@ -72,10 +72,12 @@ PARTE 2 MFA en SSH con Google Authenticator
 funciona el google-authenticator:
 
 <img width="711" height="73" alt="image" src="https://github.com/user-attachments/assets/0929cfc9-0a38-4946-ba39-04b0d117e8c6" />
+
 * Me conecto con un usuario, que será hugo:
 
 <img width="226" height="70" alt="image" src="https://github.com/user-attachments/assets/4b1faacd-4b92-4a65-a004-dd6a3f7a77e9" />
 
+Ya instalada la aplicación de autenticador de google empiezo con los pasos:
 
 <img width="616" height="55" alt="image" src="https://github.com/user-attachments/assets/a3262d8e-8804-46d9-a47f-5812a0ef2f89" />
 
