@@ -55,6 +55,21 @@ openssl x509 -in certs/ca.crt -noout -subject -issuer -dates
 
 <img width="1067" height="145" alt="image" src="https://github.com/user-attachments/assets/440df121-8fd8-413d-af42-4d04cce552e8" />
 
+openssl x509 -in certs/ca.crt -noout -text | grep -A1 'Basic Constraints'
+
+<img width="1235" height="107" alt="image" src="https://github.com/user-attachments/assets/c679483b-f903-4f81-8b16-ef548380dc98" />
+
+#### ¿Por qué coinciden Subject e Issuer? 
+Coinciden porque se trata de un certificado raíz autofirmado.
+
+#### ¿Hasta qué fecha es válida tu CA?
+es válida hasta el 2036 
+
+### Paso 5 — Clave privada del servidor y petición de certificado (CSR)
+
+
+
+
 
 
 
