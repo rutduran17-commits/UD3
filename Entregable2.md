@@ -92,6 +92,18 @@ Al terminar, compruebo de que el fichero oculto se haya guardado en mi usuario h
 
 2.4 Conectar Google Authenticator con sshd
 
+* dentro de /etc/pam.d/sshd:
+  
+
+<img width="1030" height="795" alt="image" src="https://github.com/user-attachments/assets/edbc622a-e847-4882-adcb-23f22da75a29" />
+
+
+Ahora dentro de /etc/ssh/sshd_config configuramos:
+
+<img width="618" height="74" alt="image" src="https://github.com/user-attachments/assets/78be05de-4726-40a6-ae95-d7f512717b9a" />
+
+
+
 
 
 
