@@ -94,6 +94,9 @@ openssl verify -CAfile certs/ca.crt certs/srv.crt
   
 <img width="1211" height="143" alt="image" src="https://github.com/user-attachments/assets/f6e50370-47e0-4f4e-bcdc-a2e8701e0881" />
 
+### Paso 9 — Instalar el certificado en Apache
+
+
 
 
 
