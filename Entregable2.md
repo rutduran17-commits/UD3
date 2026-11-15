@@ -105,6 +105,16 @@ Ahora dentro de /etc/ssh/sshd_config configuramos:
 <img width="660" height="92" alt="image" src="https://github.com/user-attachments/assets/f9065bed-5450-464d-b066-af5cf21c9bf1" />
 
 
+2.5 Verificación
+
+Abro otra terminal, entro con el usuario he intento conectarme por ssh:
+
+<img width="670" height="568" alt="image" src="https://github.com/user-attachments/assets/cba37676-aa39-4410-a446-8ed307c54beb" />
+
+
+
+
+
 
 
 
