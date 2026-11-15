@@ -60,6 +60,12 @@ Al final, cumpliendo con los requisitos si me dejó:
 
 <img width="745" height="91" alt="image" src="https://github.com/user-attachments/assets/ea5c04f4-1a1a-480c-9f6e-b542c325584a" />
 
+* Para los operarios y el resto caducan cada 90 días, con 7 días de aviso previo:
+
+  <img width="911" height="57" alt="image" src="https://github.com/user-attachments/assets/df56f251-71be-41cf-99aa-5d6c146051f8" />
+
+
+
 
 
 
