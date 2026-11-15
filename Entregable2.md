@@ -80,6 +80,10 @@ funciona el google-authenticator:
 <img width="616" height="55" alt="image" src="https://github.com/user-attachments/assets/a3262d8e-8804-46d9-a47f-5812a0ef2f89" />
 
 
+<img width="842" height="58" alt="image" src="https://github.com/user-attachments/assets/b125ffa6-8fb9-42e8-a2da-ef9d4c313af6" />
+
+
+
 
 
 
