@@ -82,10 +82,9 @@ Ya instalada la aplicación de autenticador de google empiezo con los pasos:
 <img width="616" height="55" alt="image" src="https://github.com/user-attachments/assets/a3262d8e-8804-46d9-a47f-5812a0ef2f89" />
 
 
-<img width="842" height="58" alt="image" src="https://github.com/user-attachments/assets/b125ffa6-8fb9-42e8-a2da-ef9d4c313af6" />
-
-<img width="756" height="82" alt="image" src="https://github.com/user-attachments/assets/b86c8c11-05d9-43cb-93f8-051f3ba672e3" />
 <img width="861" height="497" alt="image" src="https://github.com/user-attachments/assets/95d48f02-eff6-4e32-8127-d96d8979fc4c" />
+
+
 Al terminar, compruebo de que el fichero oculto se haya guardado en mi usuario hugo
 
 <img width="817" height="75" alt="image" src="https://github.com/user-attachments/assets/95516617-79a0-4942-8710-735304492a90" />
