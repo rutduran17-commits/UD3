@@ -54,6 +54,20 @@ Al final, cumpliendo con los requisitos si me dejó:
 
 
 
+1.4 Caducidad y aviso con chage
+
+* Para el grupo de ingeniería y supervisores caducan cada 60 días, con 7 días de aviso previo:
+
+<img width="745" height="91" alt="image" src="https://github.com/user-attachments/assets/ea5c04f4-1a1a-480c-9f6e-b542c325584a" />
+
+
+
+
+
+
+
+
+
 
 
 
