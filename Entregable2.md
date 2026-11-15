@@ -31,7 +31,7 @@ dentro de  /etc/security/pwquality.conf  fijamos los valores:
 <img width="645" height="58" alt="image" src="https://github.com/user-attachments/assets/7c3144b5-d794-4986-875c-12687631d337" />
 
 
-*enforce_for_root
+* enforce_for_root
 
 <img width="450" height="56" alt="image" src="https://github.com/user-attachments/assets/d03fceae-051f-45fb-938b-34956fe3cc1c" />
 
@@ -81,6 +81,14 @@ funciona el google-authenticator:
 
 
 <img width="842" height="58" alt="image" src="https://github.com/user-attachments/assets/b125ffa6-8fb9-42e8-a2da-ef9d4c313af6" />
+
+<img width="756" height="82" alt="image" src="https://github.com/user-attachments/assets/b86c8c11-05d9-43cb-93f8-051f3ba672e3" />
+<img width="861" height="497" alt="image" src="https://github.com/user-attachments/assets/95d48f02-eff6-4e32-8127-d96d8979fc4c" />
+Al terminar, compruebo de que el fichero oculto se haya guardado en mi usuario hugo
+
+<img width="817" height="75" alt="image" src="https://github.com/user-attachments/assets/95516617-79a0-4942-8710-735304492a90" />
+
+
 
 
 
