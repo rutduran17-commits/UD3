@@ -65,7 +65,7 @@ dentro de  /etc/security/pwquality.conf  fijamos los valores:
   <img width="911" height="57" alt="image" src="https://github.com/user-attachments/assets/df56f251-71be-41cf-99aa-5d6c146051f8" />
 
 
-##PARTE 2 MFA en SSH con Google Authenticator
+## PARTE 2 MFA en SSH con Google Authenticator
 
 ### 2.2 Instalar el módulo PAM
 
