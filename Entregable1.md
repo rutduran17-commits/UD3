@@ -121,16 +121,40 @@ vemos con Victor:
 
 * ¿Por qué no bastan los permisos clásicos de Unix (usuario / grupo / resto) para implementar el esquema del diagrama? Pon un ejemplo concreto de este caso.
 
-  Justamente porque solo permite esos tres: propietario, grupo  y otros, en el esquema se ve que algunos grupos hasta incluso usuarios necesitan permisos independiente, con lo que, con  los permisos clásicos no daría abasto.
-
-  Por ejemplo, le damos permiso al grupo de ingenieros, los otros dos quedarían fuera, y si decides ponerlos en (otros) pues se colará todo el mundo, no es exclusivo.
+- Justamente porque solo permite esos tres: propietario, grupo  y otros, en el esquema se ve que algunos grupos hasta incluso usuarios necesitan permisos independiente, con lo que, con  los permisos clásicos no daría abasto.
+ 
+- Por ejemplo, le damos permiso al grupo de ingenieros, los otros dos quedarían fuera, y si decides ponerlos en (otros) pues se colará todo el mundo, no es exclusivo.
   
 
 * ¿Qué es la máscara (mask) de una ACL y cómo afecta a los permisos efectivos de un usuario o grupo, aunque su entrada de ACL indique más permisos?
+
+ - La máscara es como el permiso máximo permitido para todos los usuarios y grupos que hemos añadido en ACL, menos para el propietario.
+   
+ - Pues supongamos de que a un usuario le doy todos los permisos rwx en un archivo, pero en la máscara del archivo solo solo coloco r-x, la máscara es lo que se impone, por lo que solo el usuario y los demás se limitaría a r-x, aunque tengan un rwx porque no se puede tener más permisos de lo que marca el límite global de ese archivo.
   
 * ¿Qué diferencia hay entre una ACL de acceso y una ACL por defecto? ¿Cuándo se aplica cada una?
+
+- el ACL de acceso es la regla que se aplica de inmediato y directa a un archivo o directorio que ya existe. Se aplica cuando se quiere configurar los permisos de los ficheros o carpetas que ya han sido creadas.
+
+- el ACL por defecto es como una plantilla de permisos especiales que solo se pueden aplicar a los directorios, eso no afecta a los que ya estaban, si no que cada vez que se cree un nuevo archivo o subcarpeta dentro de ese directorio, hereda esos permisos ya establecidos como su ACL de acceso. Se aplica cuando se quiere asegurar de que los futuros archivos que se añadan a una carpeta mantengan la misma estructura de seguridad sin tener que estar configurándolos en cada creación.
+  
 * Si mañana se incorpora un nuevo operario, ¿qué pasos tendrías que repetir para darle exactamente el mismo acceso que al resto de operarios?
 
+  - En caso de archivos, solo bastaría con darle los permisos al grupo.
+  sudo setfacl  -m g:operarios:--x hmi_planta
+
+con eso, si añadimos a un nuevo usuario a operarios, ya tendría los permisos heredados del grupo.
+
+Si fuese sobre un directorio, ya cambia un poquito.
+
+Le aplico los permisos a los archivo y carpetas que ya existen, la -R que es la recursiva dice que se aplica la misma regla a todos lo que está dentro de ese directorio.
+
+sudo setfacl -R -m g:operarios:r-x planos/
+
+Aquí es donde configuramos los permisos para el futuro, la -d es de default es el que hace la magia:
+
+sudo setfacl -R -d -m g:operarios:r-x planos/
+A partir de eso, si entrase un nuevo usuario de operario, tendría por defecto los permisos de leer y ejecutar sobre ese directorio.
 
 
 
