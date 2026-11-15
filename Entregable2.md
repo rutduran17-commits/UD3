@@ -35,7 +35,7 @@ dentro de  /etc/security/pwquality.conf  fijamos los valores:
 
 <img width="450" height="56" alt="image" src="https://github.com/user-attachments/assets/d03fceae-051f-45fb-938b-34956fe3cc1c" />
 
-### 3. Como el usuario hugo (grupo operarios, creado ayer en la práctica de ACL), intenta cambiarle la contraseña por algo débil y observa el rechazo:
+#### 3. Como el usuario hugo (grupo operarios, creado ayer en la práctica de ACL), intenta cambiarle la contraseña por algo débil y observa el rechazo:
 
 <img width="737" height="160" alt="image" src="https://github.com/user-attachments/assets/a8dd66bd-3091-4221-a82d-b31164b41de8" />
 
