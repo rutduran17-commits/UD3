@@ -8,7 +8,7 @@ cat /etc/pam.d/common-password | grep pwquality
 Como se ve, la línea existe por lo que ya está activa.
 
 
-1.3 Práctica guiada — aplicar la política
+## 1.3 Práctica guiada — aplicar la política
 dentro de  /etc/security/pwquality.conf  fijamos los valores:
 
 * Mínimo de caracteres: 12
@@ -35,26 +35,26 @@ dentro de  /etc/security/pwquality.conf  fijamos los valores:
 
 <img width="450" height="56" alt="image" src="https://github.com/user-attachments/assets/d03fceae-051f-45fb-938b-34956fe3cc1c" />
 
-3. Como el usuario hugo (grupo operarios, creado ayer en la práctica de ACL), intenta cambiarle la contraseña por algo débil y observa el rechazo:
+### 3. Como el usuario hugo (grupo operarios, creado ayer en la práctica de ACL), intenta cambiarle la contraseña por algo débil y observa el rechazo:
 
 <img width="737" height="160" alt="image" src="https://github.com/user-attachments/assets/a8dd66bd-3091-4221-a82d-b31164b41de8" />
 
-Ahora prueba escribiendo una contraseña que cumpla con lo que pida PAM:
+* Ahora prueba escribiendo una contraseña que cumpla con lo que pida PAM:
 
 <img width="627" height="110" alt="image" src="https://github.com/user-attachments/assets/200a584f-e94a-4293-b796-1e90413f9286" />
 
-Prueba con root:
+* Prueba con root:
 
 <img width="686" height="117" alt="image" src="https://github.com/user-attachments/assets/bec3e033-e3f0-49cb-b199-b8a3cffb3c8f" />
 
 
-Al final, cumpliendo con los requisitos si me dejó:
+* Al final, cumpliendo con los requisitos si me dejó:
 
 <img width="867" height="172" alt="image" src="https://github.com/user-attachments/assets/86c2b578-8f2c-444d-aef3-14dea230f32b" />
 
 
 
-1.4 Caducidad y aviso con chage
+## 1.4 Caducidad y aviso con chage
 
 * Para el grupo de ingeniería y supervisores caducan cada 60 días, con 7 días de aviso previo:
 
@@ -65,9 +65,9 @@ Al final, cumpliendo con los requisitos si me dejó:
   <img width="911" height="57" alt="image" src="https://github.com/user-attachments/assets/df56f251-71be-41cf-99aa-5d6c146051f8" />
 
 
-PARTE 2 MFA en SSH con Google Authenticator
+##PARTE 2 MFA en SSH con Google Authenticator
 
-2.2 Instalar el módulo PAM
+### 2.2 Instalar el módulo PAM
 
 funciona el google-authenticator:
 
@@ -77,7 +77,7 @@ funciona el google-authenticator:
 
 <img width="226" height="70" alt="image" src="https://github.com/user-attachments/assets/4b1faacd-4b92-4a65-a004-dd6a3f7a77e9" />
 
-Ya instalada la aplicación de autenticador de google empiezo con los pasos:
+* Ya instalada la aplicación de autenticador de google empiezo con los pasos:
 
 <img width="616" height="55" alt="image" src="https://github.com/user-attachments/assets/a3262d8e-8804-46d9-a47f-5812a0ef2f89" />
 
@@ -85,12 +85,12 @@ Ya instalada la aplicación de autenticador de google empiezo con los pasos:
 <img width="861" height="497" alt="image" src="https://github.com/user-attachments/assets/95d48f02-eff6-4e32-8127-d96d8979fc4c" />
 
 
-Al terminar, compruebo de que el fichero oculto se haya guardado en mi usuario hugo
+* Al terminar, compruebo de que el fichero oculto se haya guardado en mi usuario hugo
 
 <img width="817" height="75" alt="image" src="https://github.com/user-attachments/assets/95516617-79a0-4942-8710-735304492a90" />
 
 
-2.4 Conectar Google Authenticator con sshd
+### 2.4 Conectar Google Authenticator con sshd
 
 * dentro de /etc/pam.d/sshd:
   
@@ -98,14 +98,14 @@ Al terminar, compruebo de que el fichero oculto se haya guardado en mi usuario h
 <img width="1030" height="795" alt="image" src="https://github.com/user-attachments/assets/edbc622a-e847-4882-adcb-23f22da75a29" />
 
 
-Ahora dentro de /etc/ssh/sshd_config configuramos:
+* Ahora dentro de /etc/ssh/sshd_config configuramos:
 
 <img width="738" height="545" alt="image" src="https://github.com/user-attachments/assets/0fd1b53f-ee1b-4a2d-97bb-3d895bea4041" />
 
 <img width="660" height="92" alt="image" src="https://github.com/user-attachments/assets/f9065bed-5450-464d-b066-af5cf21c9bf1" />
 
 
-2.5 Verificación
+### 2.5 Verificación
 
 Abro otra terminal, entro con el usuario he intento conectarme por ssh:
 
